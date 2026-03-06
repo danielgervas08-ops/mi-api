@@ -29,9 +29,9 @@ app.add_middleware(
 )
 
 DB_CONFIG = {
-    "host":     os.getenv("DB_HOST",     "db.hoxlygwdxsdmzhmcdolr.supabase.co"),
-    "port":     int(os.getenv("DB_PORT", 5432)),
-    "user":     os.getenv("DB_USER",     "postgres"),
+    "host":     os.getenv("DB_HOST",     "aws-1-eu-west-1.pooler.supabase.com"),
+    "port":     int(os.getenv("DB_PORT", 6543)),
+    "user":     os.getenv("DB_USER",     "postgres.hoxlygwdxsdmzhmcdolr"),
     "password": os.getenv("DB_PASSWORD", "123456"),
     "dbname":   os.getenv("DB_NAME",     "postgres"),
 }
